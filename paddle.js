@@ -1,7 +1,7 @@
 class Paddle {
     constructor() {
       // Dimensiones de la barra
-      this.w = 100;           // ancho
+      this.w = 300;           // ancho
       this.h = 20;            // alto
       // Posición inicial (centrada horizontal, abajo en el canvas)
       this.x = width/2 - this.w/2;
