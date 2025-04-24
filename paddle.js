@@ -1,6 +1,3 @@
-// Paddle.js
-
-// Clase Paddle: controla la barra que rebota las pelotas.
 class Paddle {
     constructor() {
       // Dimensiones de la barra
@@ -13,7 +10,6 @@ class Paddle {
       this.dir = 0;           // dirección actual: -1 izquierdo, +1 derecho, 0 quieto
     }
   
-    // update(): actualiza la posición según dir * speed
     update() {
       // sumamos desplazamiento y restringimos dentro del canvas
       this.x = constrain(this.x + this.dir * this.speed, 0, width - this.w);
